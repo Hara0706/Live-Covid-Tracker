@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    
+    background: #9fecaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+}
+
+h1
+{
+    padding: 30px;
+    font-size: 40px;
+    color:aliceblue;
+    text-shadow: 2px 2px #252525;
+    
+}
+
+
+h2
+{
+    padding: 30px;
+    font-size: 40px;
+    color:aliceblue;
+    text-shadow: 2px 2px #252525;
+}
+
+ul > li
+{
+    list-style: none;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    align-items: center;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2); 
+    padding: 60px 30px;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    font-size: 30px;
+    font-weight: bolder;
+    color:aliceblue;
+    text-shadow: 2px 2px #252525;
+    cursor: pointer;
+    
+  }
+
+  
+
+  .card:nth-child(1)
+  {
+    background: linear-gradient(rgba(170, 240, 40, 0.5), rgba(105, 151, 19, 0.5));
+  }
+  .card:nth-child(2)
+  {
+    background: linear-gradient(rgba(233, 118, 110, 0.5), rgba(187, 11, 11, 0.5));
+  }
+  .card:nth-child(3)
+  {
+    background: linear-gradient(rgba(238, 98, 231, 0.5), rgba(136, 8, 175, 0.5));
+  }
+  .card:nth-child(4)
+  {
+    background: linear-gradient(rgba(57, 210, 236, 0.5), rgba(4, 106, 153, 0.5));
+  }
+  .card:nth-child(5)
+  {
+    background: linear-gradient(rgba(231, 174, 50, 0.5), rgba(165, 114, 5, 0.5));
+  }
+  .card:nth-child(6)
+  {
+    background: linear-gradient(rgba(124, 224, 98, 0.5), rgba(36, 153, 7, 0.5));
+  }
+  
